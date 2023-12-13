@@ -3,10 +3,10 @@ import { ReplicateStream, StreamingTextResponse } from "ai";
 export const runtime = "edge";
 
 const replicate = new Replicate({
-  auth: process.env.REPLICATE_API_TOKEN,
+  auth: 'r8_UDl51lCFXBFW0NVDK47SrlflnQCHmNl2LaTlk',
 });
 
-if (!process.env.REPLICATE_API_TOKEN) {
+if (!'r8_UDl51lCFXBFW0NVDK47SrlflnQCHmNl2LaTlk') {
   throw new Error(
     "The REPLICATE_API_TOKEN environment variable is not set. See README.md for instructions on how to set it."
   );

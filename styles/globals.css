@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 body {
-    @apply font-sans;
+    font-family: 'Uni Sans';
+    background-image: linear-gradient(to right, blue, pink);
+
 }
 
 input {

@@ -16,15 +16,15 @@ const Message = ({ message, isUser }) => {
     <div className={`flex gap-x-4 rounded-md ${containerClass} py-5 px-5`}>
       {isUser ? (
         <span className="text-xl sm:text-2xl" title="user">
-          🥸
+          👤
         </span>
       ) : (
         <span className="text-xl sm:text-2xl" title="AI">
-          🦙
+          🧑‍⚕️
         </span>
       )}
 
-      <div className="flex flex-col text-sm sm:text-base flex-1 gap-y-4 mt-1">
+      <div className="flex flex-col text-sm sm:text-base flex-1 gap-y-4 mt-1 text-black bg-white border-white p-8 rounded">
         {message.split("\n").map(
           (text, index) =>
             text.length > 0 && (
