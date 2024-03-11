@@ -14,7 +14,7 @@
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
     "@vercel/analytics": "^1.1.1",
-    "ai": "^2.2.12",
+    "ai": "^3.0.8",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
     "llama-tokenizer-js": "^1.1.3",
